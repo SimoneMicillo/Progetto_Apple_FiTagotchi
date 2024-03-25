@@ -1,0 +1,1061 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF0417E02B921D3500AF28AB /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0417DF2B921D3500AF28AB /* TutorialView.swift */; };
+		AF0A1F292B85E98A006145B0 /* FiTagotchiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0A1F282B85E98A006145B0 /* FiTagotchiData.swift */; };
+		AF0A1F2B2B85EAA2006145B0 /* FoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0A1F2A2B85EAA2006145B0 /* FoodView.swift */; };
+		AF0A1F2D2B85EBF3006145B0 /* FiTagotchiItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0A1F2C2B85EBF3006145B0 /* FiTagotchiItem.swift */; };
+		AF0A1F2F2B864327006145B0 /* DifficultySelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0A1F2E2B864327006145B0 /* DifficultySelectionView.swift */; };
+		AF2E65BF2B8F430700D88D9F /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2E65BE2B8F430700D88D9F /* GameState.swift */; };
+		AF2E65C62B8F84D000D88D9F /* Creature2Scene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AF2E65C52B8F84D000D88D9F /* Creature2Scene.sks */; };
+		AF2E65C82B8F85C100D88D9F /* Creature3Scene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AF2E65C72B8F85C100D88D9F /* Creature3Scene.sks */; };
+		AF38AE382BA853C500B33F71 /* Creature5Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF38AE372BA853C500B33F71 /* Creature5Scene.swift */; };
+		AF38AE3B2BA8787F00B33F71 /* Sad1Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF38AE3A2BA8787F00B33F71 /* Sad1Scene.swift */; };
+		AF38AE3D2BA87BD100B33F71 /* Sad2Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF38AE3C2BA87BD100B33F71 /* Sad2Scene.swift */; };
+		AF38AE3F2BA87C3100B33F71 /* Sad3Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF38AE3E2BA87C3100B33F71 /* Sad3Scene.swift */; };
+		AF38AE412BA87CC200B33F71 /* Sad4Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF38AE402BA87CC200B33F71 /* Sad4Scene.swift */; };
+		AF38AE432BA87D9F00B33F71 /* Sad5Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF38AE422BA87D9F00B33F71 /* Sad5Scene.swift */; };
+		AF451A5C2B8E0364002F9E0B /* WinScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AF451A5B2B8E0364002F9E0B /* WinScene.sks */; };
+		AF451A5E2B8E0B5B002F9E0B /* LoseScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AF451A5D2B8E0B5B002F9E0B /* LoseScene.sks */; };
+		AF451A602B8E113F002F9E0B /* EggScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF451A5F2B8E113F002F9E0B /* EggScene.swift */; };
+		AF451A652B8E1184002F9E0B /* WinScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF451A642B8E1184002F9E0B /* WinScene.swift */; };
+		AF451A672B8E11A4002F9E0B /* LoseScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF451A662B8E11A4002F9E0B /* LoseScene.swift */; };
+		AF451A6C2B8E1470002F9E0B /* Creature1Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF451A6B2B8E1470002F9E0B /* Creature1Scene.swift */; };
+		AF4BE9ED2B834E5500053683 /* FiTagotchiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4BE9EC2B834E5400053683 /* FiTagotchiView.swift */; };
+		AF4BE9EF2B83500300053683 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4BE9EE2B83500300053683 /* MenuView.swift */; };
+		AF4BE9F12B8383B400053683 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4BE9F02B8383B400053683 /* SettingsView.swift */; };
+		AF4BE9F52B83A86D00053683 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4BE9F42B83A86D00053683 /* DatePickerView.swift */; };
+		AF7186002B9EF96B0048D884 /* GoalPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7185FF2B9EF96B0048D884 /* GoalPickerView.swift */; };
+		AF7186042B9F3F2D0048D884 /* DialogueCloudScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7186032B9F3F2D0048D884 /* DialogueCloudScene.swift */; };
+		AF940BC02B97342D00D27B7E /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF940BBF2B97342D00D27B7E /* WidgetKit.framework */; };
+		AF940BC22B97342D00D27B7E /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF940BC12B97342D00D27B7E /* SwiftUI.framework */; };
+		AF940BC52B97342D00D27B7E /* ExpressionWidgetExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF940BC42B97342D00D27B7E /* ExpressionWidgetExtension.swift */; };
+		AF940BC72B97342D00D27B7E /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF940BC62B97342D00D27B7E /* AppIntent.swift */; };
+		AF940BC92B97342F00D27B7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF940BC82B97342F00D27B7E /* Assets.xcassets */; };
+		AF940BCD2B97342F00D27B7E /* ExpressionWidgetExtensionExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = AF940BBD2B97342D00D27B7E /* ExpressionWidgetExtensionExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AF970E172B98683B00A4881C /* Creature4Scene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AF970E162B98683B00A4881C /* Creature4Scene.sks */; };
+		AF970E192B98B38100A4881C /* Creature2Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF970E182B98B38100A4881C /* Creature2Scene.swift */; };
+		AF970E1B2B98C29800A4881C /* Creature4Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF970E1A2B98C29800A4881C /* Creature4Scene.swift */; };
+		AF970E1D2B98C2B300A4881C /* Creature3Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF970E1C2B98C2B300A4881C /* Creature3Scene.swift */; };
+		AF9BC7762B9A07B400D02D15 /* LoseTransitionScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9BC7752B9A07B400D02D15 /* LoseTransitionScene.swift */; };
+		AFA348972B8D009200224D91 /* EggScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AFA348962B8D009200224D91 /* EggScene.sks */; };
+		AFA781602B88DEA200EA6790 /* BagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA7815F2B88DEA200EA6790 /* BagView.swift */; };
+		AFA781622B88F11B00EA6790 /* FiTagotchiInventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA781612B88F11B00EA6790 /* FiTagotchiInventory.swift */; };
+		AFAB47202B962C0D007A1A7D /* RocketScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAB471F2B962C0D007A1A7D /* RocketScene.swift */; };
+		AFAB47222B962DD4007A1A7D /* RocketProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAB47212B962DD4007A1A7D /* RocketProgressView.swift */; };
+		AFAB47242B96386F007A1A7D /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAB47232B96386F007A1A7D /* ProgressBar.swift */; };
+		AFAB47282B964451007A1A7D /* RocketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAB47272B964451007A1A7D /* RocketView.swift */; };
+		AFADA10F2B87853500F8B92A /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFADA10E2B87853500F8B92A /* GameView.swift */; };
+		AFB303B22B86AC6300CAB769 /* WatchDatePicker in Frameworks */ = {isa = PBXBuildFile; productRef = AFB303B12B86AC6300CAB769 /* WatchDatePicker */; };
+		AFBF6D982B9919860001906B /* EggTransitionScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBF6D972B9919860001906B /* EggTransitionScene.swift */; };
+		AFD5C89A2BA38CDF002763C6 /* SleepingScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD5C8992BA38CDF002763C6 /* SleepingScene.swift */; };
+		AFE3311E2B83D3F400E44CEA /* RenameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE3311D2B83D3F400E44CEA /* RenameView.swift */; };
+		AFE914192B9DCD83000F08A7 /* WinTransitionScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE914182B9DCD83000F08A7 /* WinTransitionScene.swift */; };
+		AFFCA72F2BA365C300DBFA88 /* StatsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFCA72E2BA365C300DBFA88 /* StatsManager.swift */; };
+		F10388552B7D0E0200046375 /* FiTagotchi Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F10388542B7D0E0200046375 /* FiTagotchi Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F103885A2B7D0E0200046375 /* FiTagotchiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10388592B7D0E0200046375 /* FiTagotchiApp.swift */; };
+		F103885C2B7D0E0200046375 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F103885B2B7D0E0200046375 /* ContentView.swift */; };
+		F103885E2B7D0E0500046375 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F103885D2B7D0E0500046375 /* Assets.xcassets */; };
+		F10388612B7D0E0500046375 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F10388602B7D0E0500046375 /* Preview Assets.xcassets */; };
+		F103888A2B7D0F6100046375 /* Creature1Scene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F10388892B7D0F6100046375 /* Creature1Scene.sks */; };
+		F1734AC62B7E1D350082840B /* StatisticCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1734AC52B7E1D350082840B /* StatisticCircleView.swift */; };
+		F5AE7F082BA19C1A00D847B5 /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AE7F072BA19C1A00D847B5 /* HealthManager.swift */; };
+		F5AE7F0A2BA19C6500D847B5 /* DateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AE7F092BA19C6500D847B5 /* DateManager.swift */; };
+		F5AE7F0D2BA1A33000D847B5 /* DailyMission.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AE7F0C2BA1A33000D847B5 /* DailyMission.swift */; };
+		F5AE7F0F2BA1A36600D847B5 /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AE7F0E2BA1A36600D847B5 /* Goal.swift */; };
+		F5AE7F112BA1A38A00D847B5 /* MissionGoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AE7F102BA1A38A00D847B5 /* MissionGoalView.swift */; };
+		F5AE7F132BA1A3D200D847B5 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AE7F122BA1A3D200D847B5 /* MissionView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF940BCB2B97342F00D27B7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F10388482B7D0E0200046375 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF940BBC2B97342D00D27B7E;
+			remoteInfo = ExpressionWidgetExtensionExtension;
+		};
+		F10388562B7D0E0200046375 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F10388482B7D0E0200046375 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F10388532B7D0E0200046375;
+			remoteInfo = "FiTagotchi Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AF940BCE2B97342F00D27B7E /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AF940BCD2B97342F00D27B7E /* ExpressionWidgetExtensionExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F103887D2B7D0E0500046375 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				F10388552B7D0E0200046375 /* FiTagotchi Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AF0417DF2B921D3500AF28AB /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
+		AF0A1F282B85E98A006145B0 /* FiTagotchiData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiTagotchiData.swift; sourceTree = "<group>"; };
+		AF0A1F2A2B85EAA2006145B0 /* FoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodView.swift; sourceTree = "<group>"; };
+		AF0A1F2C2B85EBF3006145B0 /* FiTagotchiItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiTagotchiItem.swift; sourceTree = "<group>"; };
+		AF0A1F2E2B864327006145B0 /* DifficultySelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifficultySelectionView.swift; sourceTree = "<group>"; };
+		AF2E65BE2B8F430700D88D9F /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		AF2E65C52B8F84D000D88D9F /* Creature2Scene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Creature2Scene.sks; sourceTree = "<group>"; };
+		AF2E65C72B8F85C100D88D9F /* Creature3Scene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Creature3Scene.sks; sourceTree = "<group>"; };
+		AF38AE352BA83D2C00B33F71 /* ExpressionWidgetExtensionExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ExpressionWidgetExtensionExtension.entitlements; sourceTree = "<group>"; };
+		AF38AE372BA853C500B33F71 /* Creature5Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creature5Scene.swift; sourceTree = "<group>"; };
+		AF38AE3A2BA8787F00B33F71 /* Sad1Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sad1Scene.swift; sourceTree = "<group>"; };
+		AF38AE3C2BA87BD100B33F71 /* Sad2Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sad2Scene.swift; sourceTree = "<group>"; };
+		AF38AE3E2BA87C3100B33F71 /* Sad3Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sad3Scene.swift; sourceTree = "<group>"; };
+		AF38AE402BA87CC200B33F71 /* Sad4Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sad4Scene.swift; sourceTree = "<group>"; };
+		AF38AE422BA87D9F00B33F71 /* Sad5Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sad5Scene.swift; sourceTree = "<group>"; };
+		AF451A5B2B8E0364002F9E0B /* WinScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = WinScene.sks; sourceTree = "<group>"; };
+		AF451A5D2B8E0B5B002F9E0B /* LoseScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LoseScene.sks; sourceTree = "<group>"; };
+		AF451A5F2B8E113F002F9E0B /* EggScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggScene.swift; sourceTree = "<group>"; };
+		AF451A642B8E1184002F9E0B /* WinScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinScene.swift; sourceTree = "<group>"; };
+		AF451A662B8E11A4002F9E0B /* LoseScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoseScene.swift; sourceTree = "<group>"; };
+		AF451A6B2B8E1470002F9E0B /* Creature1Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creature1Scene.swift; sourceTree = "<group>"; };
+		AF4BE9EC2B834E5400053683 /* FiTagotchiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiTagotchiView.swift; sourceTree = "<group>"; };
+		AF4BE9EE2B83500300053683 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		AF4BE9F02B8383B400053683 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		AF4BE9F42B83A86D00053683 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
+		AF5F385F2BA1AC2D00A3BEA8 /* FiTagotchi Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "FiTagotchi Watch App.entitlements"; sourceTree = "<group>"; };
+		AF5F38602BA1AC5C00A3BEA8 /* FiTagotchi-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "FiTagotchi-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		AF7185FF2B9EF96B0048D884 /* GoalPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalPickerView.swift; sourceTree = "<group>"; };
+		AF7186032B9F3F2D0048D884 /* DialogueCloudScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogueCloudScene.swift; sourceTree = "<group>"; };
+		AF940BBD2B97342D00D27B7E /* ExpressionWidgetExtensionExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ExpressionWidgetExtensionExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF940BBF2B97342D00D27B7E /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		AF940BC12B97342D00D27B7E /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		AF940BC42B97342D00D27B7E /* ExpressionWidgetExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpressionWidgetExtension.swift; sourceTree = "<group>"; };
+		AF940BC62B97342D00D27B7E /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		AF940BC82B97342F00D27B7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF940BCA2B97342F00D27B7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF970E162B98683B00A4881C /* Creature4Scene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Creature4Scene.sks; sourceTree = "<group>"; };
+		AF970E182B98B38100A4881C /* Creature2Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creature2Scene.swift; sourceTree = "<group>"; };
+		AF970E1A2B98C29800A4881C /* Creature4Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creature4Scene.swift; sourceTree = "<group>"; };
+		AF970E1C2B98C2B300A4881C /* Creature3Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creature3Scene.swift; sourceTree = "<group>"; };
+		AF9BC7752B9A07B400D02D15 /* LoseTransitionScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoseTransitionScene.swift; sourceTree = "<group>"; };
+		AFA348962B8D009200224D91 /* EggScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EggScene.sks; sourceTree = "<group>"; };
+		AFA7815F2B88DEA200EA6790 /* BagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagView.swift; sourceTree = "<group>"; };
+		AFA781612B88F11B00EA6790 /* FiTagotchiInventory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiTagotchiInventory.swift; sourceTree = "<group>"; };
+		AFAB471F2B962C0D007A1A7D /* RocketScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketScene.swift; sourceTree = "<group>"; };
+		AFAB47212B962DD4007A1A7D /* RocketProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketProgressView.swift; sourceTree = "<group>"; };
+		AFAB47232B96386F007A1A7D /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		AFAB47272B964451007A1A7D /* RocketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketView.swift; sourceTree = "<group>"; };
+		AFADA10E2B87853500F8B92A /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		AFBF6D972B9919860001906B /* EggTransitionScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggTransitionScene.swift; sourceTree = "<group>"; };
+		AFD5C8992BA38CDF002763C6 /* SleepingScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepingScene.swift; sourceTree = "<group>"; };
+		AFE3311D2B83D3F400E44CEA /* RenameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenameView.swift; sourceTree = "<group>"; };
+		AFE914182B9DCD83000F08A7 /* WinTransitionScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinTransitionScene.swift; sourceTree = "<group>"; };
+		AFFCA72E2BA365C300DBFA88 /* StatsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsManager.swift; sourceTree = "<group>"; };
+		F103884E2B7D0E0200046375 /* FiTagotchi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FiTagotchi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F10388542B7D0E0200046375 /* FiTagotchi Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FiTagotchi Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F10388592B7D0E0200046375 /* FiTagotchiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiTagotchiApp.swift; sourceTree = "<group>"; };
+		F103885B2B7D0E0200046375 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F103885D2B7D0E0500046375 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F10388602B7D0E0500046375 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F10388892B7D0F6100046375 /* Creature1Scene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Creature1Scene.sks; sourceTree = "<group>"; };
+		F1734AC52B7E1D350082840B /* StatisticCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticCircleView.swift; sourceTree = "<group>"; };
+		F5AE7F072BA19C1A00D847B5 /* HealthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthManager.swift; sourceTree = "<group>"; };
+		F5AE7F092BA19C6500D847B5 /* DateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateManager.swift; sourceTree = "<group>"; };
+		F5AE7F0C2BA1A33000D847B5 /* DailyMission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyMission.swift; sourceTree = "<group>"; };
+		F5AE7F0E2BA1A36600D847B5 /* Goal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goal.swift; sourceTree = "<group>"; };
+		F5AE7F102BA1A38A00D847B5 /* MissionGoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionGoalView.swift; sourceTree = "<group>"; };
+		F5AE7F122BA1A3D200D847B5 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF940BBA2B97342D00D27B7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF940BC22B97342D00D27B7E /* SwiftUI.framework in Frameworks */,
+				AF940BC02B97342D00D27B7E /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10388512B7D0E0200046375 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB303B22B86AC6300CAB769 /* WatchDatePicker in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF2E65C42B8F64F500D88D9F /* MenuOptions */ = {
+			isa = PBXGroup;
+			children = (
+				AF4BE9F02B8383B400053683 /* SettingsView.swift */,
+				AF4BE9F42B83A86D00053683 /* DatePickerView.swift */,
+				AF0A1F2E2B864327006145B0 /* DifficultySelectionView.swift */,
+				AF7185FF2B9EF96B0048D884 /* GoalPickerView.swift */,
+				AFA7815F2B88DEA200EA6790 /* BagView.swift */,
+				AF0A1F2A2B85EAA2006145B0 /* FoodView.swift */,
+				AFE3311D2B83D3F400E44CEA /* RenameView.swift */,
+				AF0417DF2B921D3500AF28AB /* TutorialView.swift */,
+			);
+			path = MenuOptions;
+			sourceTree = "<group>";
+		};
+		AF2E65C92B8F86A600D88D9F /* Creature2Scene */ = {
+			isa = PBXGroup;
+			children = (
+				AF970E182B98B38100A4881C /* Creature2Scene.swift */,
+				AF38AE3C2BA87BD100B33F71 /* Sad2Scene.swift */,
+				AF2E65C52B8F84D000D88D9F /* Creature2Scene.sks */,
+			);
+			path = Creature2Scene;
+			sourceTree = "<group>";
+		};
+		AF2E65CA2B8F86B200D88D9F /* Creature3Scene */ = {
+			isa = PBXGroup;
+			children = (
+				AF970E1C2B98C2B300A4881C /* Creature3Scene.swift */,
+				AF38AE3E2BA87C3100B33F71 /* Sad3Scene.swift */,
+				AF2E65C72B8F85C100D88D9F /* Creature3Scene.sks */,
+			);
+			path = Creature3Scene;
+			sourceTree = "<group>";
+		};
+		AF2E65CB2B8F986A00D88D9F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				AF0A1F282B85E98A006145B0 /* FiTagotchiData.swift */,
+				AF2E65BE2B8F430700D88D9F /* GameState.swift */,
+				AF2E65CD2B8F989F00D88D9F /* ItemsData */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		AF2E65CC2B8F988100D88D9F /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				AFD5C8982BA38CCB002763C6 /* SleepingScene */,
+				AF7186022B9F3EF80048D884 /* DialogueCloudScene */,
+				AFBF6D962B9919670001906B /* TransitionScene */,
+				AF9BC7772B9A146B00D02D15 /* RocketScene */,
+				AF451A612B8E1155002F9E0B /* EggScene */,
+				AF451A622B8E1167002F9E0B /* WinScene */,
+				AF451A632B8E116F002F9E0B /* LoseScene */,
+				AF451A6A2B8E145F002F9E0B /* Creature1Scene */,
+				AF2E65C92B8F86A600D88D9F /* Creature2Scene */,
+				AF2E65CA2B8F86B200D88D9F /* Creature3Scene */,
+				AF970E152B9867F100A4881C /* Creature4Scene */,
+				AF38AE362BA8538B00B33F71 /* Creature5Scene */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		AF2E65CD2B8F989F00D88D9F /* ItemsData */ = {
+			isa = PBXGroup;
+			children = (
+				AF0A1F2C2B85EBF3006145B0 /* FiTagotchiItem.swift */,
+				AFA781612B88F11B00EA6790 /* FiTagotchiInventory.swift */,
+			);
+			path = ItemsData;
+			sourceTree = "<group>";
+		};
+		AF38AE362BA8538B00B33F71 /* Creature5Scene */ = {
+			isa = PBXGroup;
+			children = (
+				AF38AE372BA853C500B33F71 /* Creature5Scene.swift */,
+				AF38AE422BA87D9F00B33F71 /* Sad5Scene.swift */,
+			);
+			path = Creature5Scene;
+			sourceTree = "<group>";
+		};
+		AF451A612B8E1155002F9E0B /* EggScene */ = {
+			isa = PBXGroup;
+			children = (
+				AFA348962B8D009200224D91 /* EggScene.sks */,
+				AF451A5F2B8E113F002F9E0B /* EggScene.swift */,
+			);
+			path = EggScene;
+			sourceTree = "<group>";
+		};
+		AF451A622B8E1167002F9E0B /* WinScene */ = {
+			isa = PBXGroup;
+			children = (
+				AF451A5B2B8E0364002F9E0B /* WinScene.sks */,
+				AF451A642B8E1184002F9E0B /* WinScene.swift */,
+			);
+			path = WinScene;
+			sourceTree = "<group>";
+		};
+		AF451A632B8E116F002F9E0B /* LoseScene */ = {
+			isa = PBXGroup;
+			children = (
+				AF451A5D2B8E0B5B002F9E0B /* LoseScene.sks */,
+				AF451A662B8E11A4002F9E0B /* LoseScene.swift */,
+			);
+			path = LoseScene;
+			sourceTree = "<group>";
+		};
+		AF451A6A2B8E145F002F9E0B /* Creature1Scene */ = {
+			isa = PBXGroup;
+			children = (
+				AF451A6B2B8E1470002F9E0B /* Creature1Scene.swift */,
+				AF38AE3A2BA8787F00B33F71 /* Sad1Scene.swift */,
+				F10388892B7D0F6100046375 /* Creature1Scene.sks */,
+			);
+			path = Creature1Scene;
+			sourceTree = "<group>";
+		};
+		AF7186012B9F05290048D884 /* BackEnd */ = {
+			isa = PBXGroup;
+			children = (
+				AFFCA72D2BA365A100DBFA88 /* StatsManager */,
+				F5AE7F0B2BA1A31D00D847B5 /* Mission */,
+				F5AE7F062BA19C0C00D847B5 /* Health */,
+			);
+			path = BackEnd;
+			sourceTree = "<group>";
+		};
+		AF7186022B9F3EF80048D884 /* DialogueCloudScene */ = {
+			isa = PBXGroup;
+			children = (
+				AF7186032B9F3F2D0048D884 /* DialogueCloudScene.swift */,
+			);
+			path = DialogueCloudScene;
+			sourceTree = "<group>";
+		};
+		AF940BBE2B97342D00D27B7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF940BBF2B97342D00D27B7E /* WidgetKit.framework */,
+				AF940BC12B97342D00D27B7E /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF940BC32B97342D00D27B7E /* ExpressionWidgetExtension */ = {
+			isa = PBXGroup;
+			children = (
+				AF940BC42B97342D00D27B7E /* ExpressionWidgetExtension.swift */,
+				AF940BC62B97342D00D27B7E /* AppIntent.swift */,
+				AF940BC82B97342F00D27B7E /* Assets.xcassets */,
+				AF940BCA2B97342F00D27B7E /* Info.plist */,
+			);
+			path = ExpressionWidgetExtension;
+			sourceTree = "<group>";
+		};
+		AF970E152B9867F100A4881C /* Creature4Scene */ = {
+			isa = PBXGroup;
+			children = (
+				AF970E1A2B98C29800A4881C /* Creature4Scene.swift */,
+				AF38AE402BA87CC200B33F71 /* Sad4Scene.swift */,
+				AF970E162B98683B00A4881C /* Creature4Scene.sks */,
+			);
+			path = Creature4Scene;
+			sourceTree = "<group>";
+		};
+		AF9BC7772B9A146B00D02D15 /* RocketScene */ = {
+			isa = PBXGroup;
+			children = (
+				AFAB471F2B962C0D007A1A7D /* RocketScene.swift */,
+			);
+			path = RocketScene;
+			sourceTree = "<group>";
+		};
+		AFBF6D962B9919670001906B /* TransitionScene */ = {
+			isa = PBXGroup;
+			children = (
+				AFBF6D972B9919860001906B /* EggTransitionScene.swift */,
+				AF9BC7752B9A07B400D02D15 /* LoseTransitionScene.swift */,
+				AFE914182B9DCD83000F08A7 /* WinTransitionScene.swift */,
+			);
+			path = TransitionScene;
+			sourceTree = "<group>";
+		};
+		AFD5C8982BA38CCB002763C6 /* SleepingScene */ = {
+			isa = PBXGroup;
+			children = (
+				AFD5C8992BA38CDF002763C6 /* SleepingScene.swift */,
+			);
+			path = SleepingScene;
+			sourceTree = "<group>";
+		};
+		AFFCA72D2BA365A100DBFA88 /* StatsManager */ = {
+			isa = PBXGroup;
+			children = (
+				AFFCA72E2BA365C300DBFA88 /* StatsManager.swift */,
+			);
+			path = StatsManager;
+			sourceTree = "<group>";
+		};
+		F10388472B7D0E0200046375 = {
+			isa = PBXGroup;
+			children = (
+				AF38AE352BA83D2C00B33F71 /* ExpressionWidgetExtensionExtension.entitlements */,
+				F10388582B7D0E0200046375 /* FiTagotchi Watch App */,
+				AF940BC32B97342D00D27B7E /* ExpressionWidgetExtension */,
+				AF940BBE2B97342D00D27B7E /* Frameworks */,
+				F103884F2B7D0E0200046375 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F103884F2B7D0E0200046375 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F103884E2B7D0E0200046375 /* FiTagotchi.app */,
+				F10388542B7D0E0200046375 /* FiTagotchi Watch App.app */,
+				AF940BBD2B97342D00D27B7E /* ExpressionWidgetExtensionExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F10388582B7D0E0200046375 /* FiTagotchi Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				AF5F38602BA1AC5C00A3BEA8 /* FiTagotchi-Watch-App-Info.plist */,
+				AF5F385F2BA1AC2D00A3BEA8 /* FiTagotchi Watch App.entitlements */,
+				F10388592B7D0E0200046375 /* FiTagotchiApp.swift */,
+				F103885B2B7D0E0200046375 /* ContentView.swift */,
+				AF4BE9EC2B834E5400053683 /* FiTagotchiView.swift */,
+				F1734AC52B7E1D350082840B /* StatisticCircleView.swift */,
+				AF4BE9EE2B83500300053683 /* MenuView.swift */,
+				AFAB47212B962DD4007A1A7D /* RocketProgressView.swift */,
+				AFAB47232B96386F007A1A7D /* ProgressBar.swift */,
+				AF2E65C42B8F64F500D88D9F /* MenuOptions */,
+				AF2E65CB2B8F986A00D88D9F /* Data */,
+				AFADA10E2B87853500F8B92A /* GameView.swift */,
+				AFAB47272B964451007A1A7D /* RocketView.swift */,
+				AF2E65CC2B8F988100D88D9F /* Scenes */,
+				AF7186012B9F05290048D884 /* BackEnd */,
+				F103885F2B7D0E0500046375 /* Preview Content */,
+				F103885D2B7D0E0500046375 /* Assets.xcassets */,
+			);
+			path = "FiTagotchi Watch App";
+			sourceTree = "<group>";
+		};
+		F103885F2B7D0E0500046375 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F10388602B7D0E0500046375 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F5AE7F062BA19C0C00D847B5 /* Health */ = {
+			isa = PBXGroup;
+			children = (
+				F5AE7F072BA19C1A00D847B5 /* HealthManager.swift */,
+				F5AE7F092BA19C6500D847B5 /* DateManager.swift */,
+			);
+			path = Health;
+			sourceTree = "<group>";
+		};
+		F5AE7F0B2BA1A31D00D847B5 /* Mission */ = {
+			isa = PBXGroup;
+			children = (
+				F5AE7F122BA1A3D200D847B5 /* MissionView.swift */,
+				F5AE7F102BA1A38A00D847B5 /* MissionGoalView.swift */,
+				F5AE7F0C2BA1A33000D847B5 /* DailyMission.swift */,
+				F5AE7F0E2BA1A36600D847B5 /* Goal.swift */,
+			);
+			path = Mission;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF940BBC2B97342D00D27B7E /* ExpressionWidgetExtensionExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF940BD12B97342F00D27B7E /* Build configuration list for PBXNativeTarget "ExpressionWidgetExtensionExtension" */;
+			buildPhases = (
+				AF940BB92B97342D00D27B7E /* Sources */,
+				AF940BBA2B97342D00D27B7E /* Frameworks */,
+				AF940BBB2B97342D00D27B7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExpressionWidgetExtensionExtension;
+			productName = ExpressionWidgetExtensionExtension;
+			productReference = AF940BBD2B97342D00D27B7E /* ExpressionWidgetExtensionExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		F103884D2B7D0E0200046375 /* FiTagotchi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F103887E2B7D0E0500046375 /* Build configuration list for PBXNativeTarget "FiTagotchi" */;
+			buildPhases = (
+				F103884C2B7D0E0200046375 /* Resources */,
+				F103887D2B7D0E0500046375 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F10388572B7D0E0200046375 /* PBXTargetDependency */,
+			);
+			name = FiTagotchi;
+			productName = FiTagotchi;
+			productReference = F103884E2B7D0E0200046375 /* FiTagotchi.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		F10388532B7D0E0200046375 /* FiTagotchi Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F103887A2B7D0E0500046375 /* Build configuration list for PBXNativeTarget "FiTagotchi Watch App" */;
+			buildPhases = (
+				F10388502B7D0E0200046375 /* Sources */,
+				F10388512B7D0E0200046375 /* Frameworks */,
+				F10388522B7D0E0200046375 /* Resources */,
+				AF940BCE2B97342F00D27B7E /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF940BCC2B97342F00D27B7E /* PBXTargetDependency */,
+			);
+			name = "FiTagotchi Watch App";
+			packageProductDependencies = (
+				AFB303B12B86AC6300CAB769 /* WatchDatePicker */,
+			);
+			productName = "FiTagotchi Watch App";
+			productReference = F10388542B7D0E0200046375 /* FiTagotchi Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F10388482B7D0E0200046375 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					AF940BBC2B97342D00D27B7E = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					F103884D2B7D0E0200046375 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					F10388532B7D0E0200046375 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = F103884B2B7D0E0200046375 /* Build configuration list for PBXProject "FiTagotchi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F10388472B7D0E0200046375;
+			packageReferences = (
+				F103888B2B7D157E00046375 /* XCRemoteSwiftPackageReference "swiftui-gif" */,
+				F103888E2B7D169600046375 /* XCRemoteSwiftPackageReference "Giffy" */,
+				AFB303B02B86AC6300CAB769 /* XCRemoteSwiftPackageReference "watch-date-picker" */,
+			);
+			productRefGroup = F103884F2B7D0E0200046375 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F103884D2B7D0E0200046375 /* FiTagotchi */,
+				F10388532B7D0E0200046375 /* FiTagotchi Watch App */,
+				AF940BBC2B97342D00D27B7E /* ExpressionWidgetExtensionExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF940BBB2B97342D00D27B7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF940BC92B97342F00D27B7E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F103884C2B7D0E0200046375 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10388522B7D0E0200046375 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFA348972B8D009200224D91 /* EggScene.sks in Resources */,
+				AF2E65C62B8F84D000D88D9F /* Creature2Scene.sks in Resources */,
+				AF451A5E2B8E0B5B002F9E0B /* LoseScene.sks in Resources */,
+				F10388612B7D0E0500046375 /* Preview Assets.xcassets in Resources */,
+				AF451A5C2B8E0364002F9E0B /* WinScene.sks in Resources */,
+				AF2E65C82B8F85C100D88D9F /* Creature3Scene.sks in Resources */,
+				F103888A2B7D0F6100046375 /* Creature1Scene.sks in Resources */,
+				AF970E172B98683B00A4881C /* Creature4Scene.sks in Resources */,
+				F103885E2B7D0E0500046375 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF940BB92B97342D00D27B7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF940BC52B97342D00D27B7E /* ExpressionWidgetExtension.swift in Sources */,
+				AF940BC72B97342D00D27B7E /* AppIntent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10388502B7D0E0200046375 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4BE9F12B8383B400053683 /* SettingsView.swift in Sources */,
+				AF451A652B8E1184002F9E0B /* WinScene.swift in Sources */,
+				F5AE7F0D2BA1A33000D847B5 /* DailyMission.swift in Sources */,
+				AF0A1F2F2B864327006145B0 /* DifficultySelectionView.swift in Sources */,
+				AF38AE3F2BA87C3100B33F71 /* Sad3Scene.swift in Sources */,
+				AFAB47282B964451007A1A7D /* RocketView.swift in Sources */,
+				AF970E192B98B38100A4881C /* Creature2Scene.swift in Sources */,
+				AF4BE9EF2B83500300053683 /* MenuView.swift in Sources */,
+				AFADA10F2B87853500F8B92A /* GameView.swift in Sources */,
+				AFE3311E2B83D3F400E44CEA /* RenameView.swift in Sources */,
+				AF9BC7762B9A07B400D02D15 /* LoseTransitionScene.swift in Sources */,
+				AF451A6C2B8E1470002F9E0B /* Creature1Scene.swift in Sources */,
+				AF7186002B9EF96B0048D884 /* GoalPickerView.swift in Sources */,
+				AFA781602B88DEA200EA6790 /* BagView.swift in Sources */,
+				AF0417E02B921D3500AF28AB /* TutorialView.swift in Sources */,
+				F1734AC62B7E1D350082840B /* StatisticCircleView.swift in Sources */,
+				AFBF6D982B9919860001906B /* EggTransitionScene.swift in Sources */,
+				F5AE7F0F2BA1A36600D847B5 /* Goal.swift in Sources */,
+				AFD5C89A2BA38CDF002763C6 /* SleepingScene.swift in Sources */,
+				AF38AE3D2BA87BD100B33F71 /* Sad2Scene.swift in Sources */,
+				AF2E65BF2B8F430700D88D9F /* GameState.swift in Sources */,
+				F103885C2B7D0E0200046375 /* ContentView.swift in Sources */,
+				F103885A2B7D0E0200046375 /* FiTagotchiApp.swift in Sources */,
+				AF38AE3B2BA8787F00B33F71 /* Sad1Scene.swift in Sources */,
+				F5AE7F132BA1A3D200D847B5 /* MissionView.swift in Sources */,
+				AFA781622B88F11B00EA6790 /* FiTagotchiInventory.swift in Sources */,
+				AFAB47202B962C0D007A1A7D /* RocketScene.swift in Sources */,
+				AFFCA72F2BA365C300DBFA88 /* StatsManager.swift in Sources */,
+				AF970E1B2B98C29800A4881C /* Creature4Scene.swift in Sources */,
+				AF0A1F292B85E98A006145B0 /* FiTagotchiData.swift in Sources */,
+				AF0A1F2D2B85EBF3006145B0 /* FiTagotchiItem.swift in Sources */,
+				AF4BE9F52B83A86D00053683 /* DatePickerView.swift in Sources */,
+				AFAB47222B962DD4007A1A7D /* RocketProgressView.swift in Sources */,
+				AF0A1F2B2B85EAA2006145B0 /* FoodView.swift in Sources */,
+				AF7186042B9F3F2D0048D884 /* DialogueCloudScene.swift in Sources */,
+				AFE914192B9DCD83000F08A7 /* WinTransitionScene.swift in Sources */,
+				AF451A602B8E113F002F9E0B /* EggScene.swift in Sources */,
+				AF4BE9ED2B834E5500053683 /* FiTagotchiView.swift in Sources */,
+				AFAB47242B96386F007A1A7D /* ProgressBar.swift in Sources */,
+				F5AE7F0A2BA19C6500D847B5 /* DateManager.swift in Sources */,
+				AF38AE412BA87CC200B33F71 /* Sad4Scene.swift in Sources */,
+				F5AE7F082BA19C1A00D847B5 /* HealthManager.swift in Sources */,
+				AF451A672B8E11A4002F9E0B /* LoseScene.swift in Sources */,
+				F5AE7F112BA1A38A00D847B5 /* MissionGoalView.swift in Sources */,
+				AF38AE432BA87D9F00B33F71 /* Sad5Scene.swift in Sources */,
+				AF970E1D2B98C2B300A4881C /* Creature3Scene.swift in Sources */,
+				AF38AE382BA853C500B33F71 /* Creature5Scene.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF940BCC2B97342F00D27B7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF940BBC2B97342D00D27B7E /* ExpressionWidgetExtensionExtension */;
+			targetProxy = AF940BCB2B97342F00D27B7E /* PBXContainerItemProxy */;
+		};
+		F10388572B7D0E0200046375 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F10388532B7D0E0200046375 /* FiTagotchi Watch App */;
+			targetProxy = F10388562B7D0E0200046375 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AF940BCF2B97342F00D27B7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = ExpressionWidgetExtensionExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QF6FSLVYFN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ExpressionWidgetExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ExpressionWidgetExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.aledolce.FiTagotchi.watchkitapp.ExpressionWidgetExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		AF940BD02B97342F00D27B7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = ExpressionWidgetExtensionExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QF6FSLVYFN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ExpressionWidgetExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ExpressionWidgetExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.aledolce.FiTagotchi.watchkitapp.ExpressionWidgetExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		F10388782B7D0E0500046375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F10388792B7D0E0500046375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F103887B2B7D0E0500046375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "FiTagotchi Watch App/FiTagotchi Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FiTagotchi Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = QF6FSLVYFN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FiTagotchi-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = FiTagotchi;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "\"FiTagotchi\" feeds on your steps. Keep it healthy so that it can build a rocket to return to its home planet.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.aledolce.FiTagotchi.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		F103887C2B7D0E0500046375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "FiTagotchi Watch App/FiTagotchi Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FiTagotchi Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = QF6FSLVYFN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FiTagotchi-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = FiTagotchi;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "\"FiTagotchi\" feeds on your steps. Keep it healthy so that it can build a rocket to return to its home planet.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.aledolce.FiTagotchi.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		F103887F2B7D0E0500046375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QF6FSLVYFN;
+				INFOPLIST_KEY_CFBundleDisplayName = FiTagotchi;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.aledolce.FiTagotchi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F10388802B7D0E0500046375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QF6FSLVYFN;
+				INFOPLIST_KEY_CFBundleDisplayName = FiTagotchi;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.aledolce.FiTagotchi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF940BD12B97342F00D27B7E /* Build configuration list for PBXNativeTarget "ExpressionWidgetExtensionExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF940BCF2B97342F00D27B7E /* Debug */,
+				AF940BD02B97342F00D27B7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F103884B2B7D0E0200046375 /* Build configuration list for PBXProject "FiTagotchi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10388782B7D0E0500046375 /* Debug */,
+				F10388792B7D0E0500046375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F103887A2B7D0E0500046375 /* Build configuration list for PBXNativeTarget "FiTagotchi Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F103887B2B7D0E0500046375 /* Debug */,
+				F103887C2B7D0E0500046375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F103887E2B7D0E0500046375 /* Build configuration list for PBXNativeTarget "FiTagotchi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F103887F2B7D0E0500046375 /* Debug */,
+				F10388802B7D0E0500046375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AFB303B02B86AC6300CAB769 /* XCRemoteSwiftPackageReference "watch-date-picker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/freysie/watch-date-picker";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.0;
+			};
+		};
+		F103888B2B7D157E00046375 /* XCRemoteSwiftPackageReference "swiftui-gif" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/globulus/swiftui-gif";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.1;
+			};
+		};
+		F103888E2B7D169600046375 /* XCRemoteSwiftPackageReference "Giffy" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tfmart/Giffy";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AFB303B12B86AC6300CAB769 /* WatchDatePicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AFB303B02B86AC6300CAB769 /* XCRemoteSwiftPackageReference "watch-date-picker" */;
+			productName = WatchDatePicker;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F10388482B7D0E0200046375 /* Project object */;
+}
